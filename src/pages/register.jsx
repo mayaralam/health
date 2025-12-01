@@ -28,6 +28,7 @@ export default function Register() {
     navigate("/login");
   };
   return (
+    <>
         <div
           className="w-screen h-screen bg-cover bg-center flex items-center justify-center "
         >
@@ -119,5 +120,6 @@ export default function Register() {
           </Form>
         </Formik>
       </div>
+      </>
      );
 }
